@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zsír!Kréta</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Zsír!Kréta beállítások</h1>
+    <img src="icons/icon48.png" alt="Logó" id="logo">
+    <form>
+        <h2>Általános Használati beállítások</h2>
+        <div class="form-group">
+            <label for="closeOnOutsideClick">
+                <input type="checkbox" name="closeOnOutsideClick" id="closeOnOutsideClick">
+                Dialog bezárása mellé kattintáskor <img src="icons/info.svg" alt="i"
+                    title="Új esemény vagy csoportbejegyzés hozzáadása dialogból való, egyszerűbb kilépési lehetőség">
+            </label>
+            <label for="addCopyToWeekbtn">
+                <input type="checkbox" name="addCopyToWeekbtn" id="addCopyToWeekbtn">
+                Átmásolás a hét többi napjára gomb hozzáadása a dialog ablakokhoz <img src="icons/info.svg" alt="i"
+title="Abban az esetben hasznos ez a lehetőség, ha több napra szeretnénk teljesen vagy részben ismétlődő tartalmat feltölteni. Az új esemény vagy csoportbejegyzés kitöltését követően, a gomb használatakor a hét minden további napjára el lesz mentve a tartalom.">
+            </label>
+            <label for="setAsAccomplishedBeforeSave">
+                <input type="checkbox" name="setAsAccomplishedBeforeSave" id="setAsAccomplishedBeforeSave">
+                Mentés előtti lehetőség, a feladatok megvalósultként való beállítására <img src="icons/info.svg" alt="i"
+            title="Eredetileg csak akkor lehet megvalósultként megjelölni egy csoportbejegyzést, ha az már mentésre került. Ezzel a beállítással már mentés előtt is megjelölhető.">
+            </label>
+            <label for="setDateAutomatically">
+                <input type="checkbox" name="setDateAutomatically" id="setDateAutomatically">
+                Dátum automatikus beállítása, a kiválasztott hét alapján <img src="icons/info.svg" alt="i"
+                    title="Az új esemény vagy csoportbejegyzés létrehozásakor a dátum automatikusan a kiválasztott hét, kiválasztott napjára lesz állítva.">
+            </label>
+            <label for="editByDefault">
+                <input type="checkbox" name="editByDefault" id="editByDefault">
+                Naplózási tartalmak szerkesztése, megtekintés helyett <img src="icons/info.svg" alt="i"
+title="Már elmentett esemény vagy csoportbejegyzésre kattintáskor, megtekintés helyett a szerkesztés megnyitása, és a ceruza ikon leváltása szem ikonra a megtekintési lehetőség érdekében.">
+            </label>
+        </div>
+        <h2>Kinézeti beállítások</h2>
+        <div class="form-group">
+            <label for="changeDesign">
+                <input type="checkbox" name="changeDesign" id="changeDesign">
+                Alapértelmezett design módosítása <img src="icons/info.svg" alt="i"
+                    title="Ovikréta alapértelmezett kinézetének lecserélése, a Zsír!Krétáéra">
+            </label>
+            <label for="darkMode">
+                <input type="checkbox" name="darkMode" id="darkMode">
+                Sötét mód <span class="beta" title="Design hibák előfordulhatnak az Ovikrétán, ha engedélyezve van ez az opció.">Béta</span> <img src="icons/info.svg" alt="i" 
+                title="Az Ovikréta és a Zsír!Kréta sötét témájúvá alakítása">
+            </label>
+            <label for="customColorMode">
+                <input type="checkbox" name="customColorMode" id="customColorMode">
+                <input type="color" name="bgColor" id="bgColorSelector">
+                Egyéni színkód beállítása háttérnek <span class="beta" title="Design hibák előfordulhatnak az Ovikrétán, ha engedélyezve van ez az opció.">Béta</span> 
+                <img src="icons/info.svg" alt="i" title="Az Ovikréta hátterének egyéni színkódra cserélése">
+            </label>
+            <label for="removeWelcomeCard">
+                <input type="checkbox" name="removeWelcomeCard" id="removeWelcomeCard">
+                Üdvözlő kártya eltávolítása <img src="icons/info.svg" alt="i"
+                    title="Az Ovikréta felesleges kezdőkártyájának eltávolítása, ezzel több helyet adva a naptárnak">
+            </label>
+            <label for="useDefaultIcon">
+                <input type="checkbox" name="useDefaultIcon" id="useDefaultIcon">
+                Alapértelmezett Ovikréta ikon használata <img src="icons/info.svg" alt="i"
+                    title="Az alapértelmezett ikon lecserélésének letiltása">
+            </label>
+        </div>
+    </form>
+    <footer>
+        <p>Támogasd a projectet! <a href="https://paypal.me/smmest3r?country.x=HU&locale.x=hu_HU" target="_blank">PayPal</a><img src="icons/info.svg" alt="i" title="
+            Támogatásod segít, hogy a Zsír!Kréta sokáig működhessen."></p>
+        <p>Partnerünk: <a href="https://refilc.hu/" target="_blank">reFilc</a></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

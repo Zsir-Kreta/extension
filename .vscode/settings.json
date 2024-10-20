@@ -1,0 +1,11 @@
+{
+    "emeraldwalk.runonsave": {
+        "commands": [
+            {
+                "match": ".*",
+                "cmd": "cd /media/styevlikmate/PENDRIVE/dev/zsir-kreta && zip -r zsir-kreta.zip ./*",
+                "messageAfter": "Zipped"
+            }
+        ]
+    }
+}
